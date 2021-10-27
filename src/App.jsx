@@ -15,14 +15,14 @@ const App = () => {
   }, []);
 
   return (
-    <>
+    <div>
       <Navigation />
       <Home data={landingPageData.HOME} />
       <About data={landingPageData.ABOUT} />
       <Why data={landingPageData.WHY} />
       <How data={landingPageData.HOW} />
       <Features data={landingPageData.FEATURES} />
-    </>
+    </div>
   );
 };
 
